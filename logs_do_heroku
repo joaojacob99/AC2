@@ -1,0 +1,15 @@
+2020-04-02T22:48:04.468937+00:00 app[api]: Release v1 created by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:48:04.468937+00:00 app[api]: Initial release by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:48:04.599103+00:00 app[api]: Release v2 created by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:48:04.599103+00:00 app[api]: Enable Logplex by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:48:32.000000+00:00 app[api]: Build started by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:48:59.208867+00:00 app[api]: Deploy 4ee911de by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:48:59.208867+00:00 app[api]: Release v3 created by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:48:59.223015+00:00 app[api]: Scaled to web@1:Free by user joao.jacob@aluno.faculdadeimpacta.com.br
+2020-04-02T22:49:04.900375+00:00 heroku[web.1]: State changed from starting to up
+2020-04-02T22:49:04.553768+00:00 app[web.1]: * Running on http://0.0.0.0:44244/ (Press CTRL+C to quit)
+2020-04-02T22:49:08.000000+00:00 app[api]: Build succeeded
+2020-04-02T22:57:36.376815+00:00 heroku[router]: at=info method=GET path="/" host=nameless-savannah-57378.herokuapp.com request_id=53d66cea-f4dd-42b4-980d-02fe0a804038 fwd="131.255.178.184" dyno=web.1 connect=0ms service=7ms status=200 bytes=566 protocol=https
+2020-04-02T22:57:36.373178+00:00 app[web.1]: 10.47.180.215 - - [02/Apr/2020 22:57:36] "GET / HTTP/1.1" 200 -
+2020-04-02T22:57:37.260533+00:00 app[web.1]: 10.47.180.215 - - [02/Apr/2020 22:57:37] "GET /favicon.ico HTTP/1.1" 404 -
+2020-04-02T22:57:37.266277+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=nameless-savannah-57378.herokuapp.com request_id=f580e8b2-8496-40b7-a099-22579f348720 fwd="131.255.178.184" dyno=web.1 connect=1ms service=13ms status=404 bytes=380 protocol=https
